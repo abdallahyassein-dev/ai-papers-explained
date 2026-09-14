@@ -1,6 +1,6 @@
 # 🧠 AI & Deep Learning Papers Explained (From Scratch)
 
-[![Papers Covered](https://img.shields.io/badge/Roadmap%20Progress-10%2F49%20Completed-brightgreen.svg?style=flat-square)](#-milestone-papers-completed)
+[![Papers Covered](https://img.shields.io/badge/Roadmap%20Progress-12%2F49%20Completed-brightgreen.svg?style=flat-square)](#-milestone-papers-completed)
 [![Language](https://img.shields.io/badge/Language-English%20%7C%20العربية-blue.svg?style=flat-square)](#-overview--نظرة-عامة)
 [![Code](https://img.shields.io/badge/Implementations-From%20Scratch%20(Python%20%26%20PyTorch)-orange.svg?style=flat-square)](#-from-scratch-implementations)
 [![License](https://img.shields.io/badge/License-MIT-lightgrey.svg?style=flat-square)](LICENSE)
@@ -25,7 +25,7 @@ This repository is designed as a deep-dive, practical companion for anyone looki
 
 ---
 
-## 🏆 Milestone Papers Completed (10 / 49)
+## 🏆 Milestone Papers Completed (12 / 49)
 
 | # | Paper Title | Year | Category | In-Depth Guide / Summary | Code Implementation | Status |
 | :-: | :--- | :-: | :---: | :---: | :---: | :---: |
@@ -39,6 +39,8 @@ This repository is designed as a deep-dive, practical companion for anyone looki
 | **08** | **Batch Normalization: Accelerating Training by Reducing Covariate Shift**<br>*(Ioffe & Szegedy)* | 2015 | Deep Learning Foundations | [Batch Norm Deep Dive](8%20-%20Batch%20Normalization/batch_normalization_2015.md) | Algorithmic Formulation | ✅ Completed |
 | **09** | **Deep Residual Learning for Image Recognition (ResNet)**<br>*(He et al.)* | 2015 | Computer Vision | [ResNet Deep Dive](9%20-%20Deep%20Residual%20Learning%20for%20Image%20Recognition%20(ResNet)/resnet_explained.md) | Architectural Analysis | ✅ Completed |
 | **10** | **Rich Feature Hierarchies for Accurate Object Detection (R-CNN)**<br>*(Girshick et al.)* | 2014 | Object Detection | [R-CNN Explained](10%20-%20Rich%20Feature%20Hierarchies%20(R-CNN)/RCNN_Explained.md) | Pipeline Breakdown | ✅ Completed |
+| **11** | **Fast R-CNN**<br>*(Ross Girshick)* | 2015 | Object Detection | [Fast R-CNN Explained](11%20-%20Fast%20R-CNN/Fast%20R-CNN%20-%20Explained.md) • [PDF](11%20-%20Fast%20R-CNN/Fast%20R-CNN.pdf) | RoI Pooling & Multi-Task Loss Breakdown | ✅ Completed |
+| **12** | **Faster R-CNN: Towards Real-Time Object Detection with RPN**<br>*(Ren, He, Girshick, Sun)* | 2015 | Object Detection | [Faster R-CNN Explained](12%20-%20Faster%20R-CNN/Faster_RCNN_Explained.md) • [PDF](12%20-%20Faster%20R-CNN/1506.01497v3.pdf) | RPN, Anchors & 4-Step Alternating Training | ✅ Completed |
 
 ---
 
@@ -63,8 +65,8 @@ The roadmap is categorized by research domain and based on [`DeepMind_AI_Paper_R
 
 ### 3. Object Detection & Semantic Segmentation
 - [x] **2014** — *Rich Feature Hierarchies for Accurate Object Detection (R-CNN)* (Girshick et al.)
-- [ ] **2015** — *Fast R-CNN* (Girshick)
-- [ ] **2015** — *Faster R-CNN: Towards Real-Time Object Detection with RPN* (Ren et al.)
+- [x] **2015** — *Fast R-CNN* (Girshick)
+- [x] **2015** — *Faster R-CNN: Towards Real-Time Object Detection with RPN* (Ren et al.)
 - [ ] **2016** — *You Only Look Once: Unified, Real-Time Object Detection (YOLO)* (Redmon et al.)
 - [ ] **2018** — *YOLOv3: An Incremental Improvement* (Redmon & Farhadi)
 - [ ] **2015** — *Fully Convolutional Networks for Semantic Segmentation (FCN)* (Long et al.)
@@ -129,8 +131,8 @@ All code implementations are written with educational clarity in mind:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/<your-username>/<repo-name>.git
-   cd <repo-name>
+   git clone https://github.com/abdallahyassein-dev/ai-papers-explained.git
+   cd ai-papers-explained
    ```
 
 2. **Set up a Python environment (optional but recommended):**
