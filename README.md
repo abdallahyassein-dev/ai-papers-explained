@@ -1,6 +1,6 @@
 # 🧠 AI & Deep Learning Papers Explained (From Scratch)
 
-[![Papers Covered](https://img.shields.io/badge/Roadmap%20Progress-12%2F49%20Completed-brightgreen.svg?style=flat-square)](#-milestone-papers-completed)
+[![Papers Covered](https://img.shields.io/badge/Roadmap%20Progress-13%2F49%20Completed-brightgreen.svg?style=flat-square)](#-milestone-papers-completed)
 [![Language](https://img.shields.io/badge/Language-English%20%7C%20العربية-blue.svg?style=flat-square)](#-overview--نظرة-عامة)
 [![Code](https://img.shields.io/badge/Implementations-From%20Scratch%20(Python%20%26%20PyTorch)-orange.svg?style=flat-square)](#-from-scratch-implementations)
 [![License](https://img.shields.io/badge/License-MIT-lightgrey.svg?style=flat-square)](LICENSE)
@@ -25,7 +25,7 @@ This repository is designed as a deep-dive, practical companion for anyone looki
 
 ---
 
-## 🏆 Milestone Papers Completed (12 / 49)
+## 🏆 Milestone Papers Completed (13 / 49)
 
 | # | Paper Title | Year | Category | In-Depth Guide / Summary | Code Implementation | Status |
 | :-: | :--- | :-: | :---: | :---: | :---: | :---: |
@@ -41,6 +41,7 @@ This repository is designed as a deep-dive, practical companion for anyone looki
 | **10** | **Rich Feature Hierarchies for Accurate Object Detection (R-CNN)**<br>*(Girshick et al.)* | 2014 | Object Detection | [R-CNN Explained](10%20-%20Rich%20Feature%20Hierarchies%20(R-CNN)/RCNN_Explained.md) | Pipeline Breakdown | ✅ Completed |
 | **11** | **Fast R-CNN**<br>*(Ross Girshick)* | 2015 | Object Detection | [Fast R-CNN Explained](11%20-%20Fast%20R-CNN/Fast%20R-CNN%20-%20Explained.md) • [PDF](11%20-%20Fast%20R-CNN/Fast%20R-CNN.pdf) | RoI Pooling & Multi-Task Loss Breakdown | ✅ Completed |
 | **12** | **Faster R-CNN: Towards Real-Time Object Detection with RPN**<br>*(Ren, He, Girshick, Sun)* | 2015 | Object Detection | [Faster R-CNN Explained](12%20-%20Faster%20R-CNN/Faster_RCNN_Explained.md) • [PDF](12%20-%20Faster%20R-CNN/1506.01497v3.pdf) | RPN, Anchors & 4-Step Alternating Training | ✅ Completed |
+| **13** | **You Only Look Once: Unified, Real-Time Object Detection (YOLO)**<br>*(Redmon, Divvala, Girshick, Farhadi)* | 2016 | Object Detection | [YOLO Explained](13%20-%20You%20Only%20Look%20Once%20(YOLO)/YOLO_Explained.md) • [PDF](13%20-%20You%20Only%20Look%20Once%20(YOLO)/1506.02640v5.pdf) | Unified Detection, Loss Formulation & NMS | ✅ Completed |
 
 ---
 
@@ -67,7 +68,7 @@ The roadmap is categorized by research domain and based on [`DeepMind_AI_Paper_R
 - [x] **2014** — *Rich Feature Hierarchies for Accurate Object Detection (R-CNN)* (Girshick et al.)
 - [x] **2015** — *Fast R-CNN* (Girshick)
 - [x] **2015** — *Faster R-CNN: Towards Real-Time Object Detection with RPN* (Ren et al.)
-- [ ] **2016** — *You Only Look Once: Unified, Real-Time Object Detection (YOLO)* (Redmon et al.)
+- [x] **2016** — *You Only Look Once: Unified, Real-Time Object Detection (YOLO)* (Redmon et al.)
 - [ ] **2018** — *YOLOv3: An Incremental Improvement* (Redmon & Farhadi)
 - [ ] **2015** — *Fully Convolutional Networks for Semantic Segmentation (FCN)* (Long et al.)
 - [ ] **2015** — *U-Net: Convolutional Networks for Biomedical Image Segmentation* (Ronneberger et al.)
