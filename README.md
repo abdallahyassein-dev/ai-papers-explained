@@ -1,6 +1,6 @@
 # 🧠 AI & Deep Learning Papers Explained (From Scratch)
 
-[![Papers Covered](https://img.shields.io/badge/Roadmap%20Progress-14%2F49%20Completed-brightgreen.svg?style=flat-square)](#-milestone-papers-completed)
+[![Papers Covered](https://img.shields.io/badge/Roadmap%20Progress-16%2F49%20Completed-brightgreen.svg?style=flat-square)](#-milestone-papers-completed)
 [![Language](https://img.shields.io/badge/Language-English%20%7C%20العربية-blue.svg?style=flat-square)](#-overview--نظرة-عامة)
 [![Code](https://img.shields.io/badge/Implementations-From%20Scratch%20(Python%20%26%20PyTorch)-orange.svg?style=flat-square)](#-from-scratch-implementations)
 [![License](https://img.shields.io/badge/License-MIT-lightgrey.svg?style=flat-square)](LICENSE)
@@ -25,10 +25,10 @@ This repository is designed as a deep-dive, practical companion for anyone looki
 
 ---
 
-## 🏆 Milestone Papers Completed (14 / 49)
+## 🏆 Milestone Papers Completed (16 / 49)
 
 | # | Paper Title | Year | Category | In-Depth Guide / Summary | Code Implementation | Status |
-| :-: | :--- | :-: | :--- | :-: | :---: | :---: |
+| :-: | :--- | :-: | :--- | :-: | :--- | :-: |
 | **01** | **Learning Representations by Back-propagating Errors**<br>*(Rumelhart, Hinton, Williams)* | 1986 | Foundations | [Breakdown](1%20-%20Learning%20representations%20by%20back-propagating%20errors/backpropagation_paper_breakdown.md) | [backpropagation.py](1%20-%20Learning%20representations%20by%20back-propagating%20errors/backpropagation.py) | ✅ Completed |
 | **02** | **Gradient-Based Learning Applied to Document Recognition (LeNet-5)**<br>*(Yann LeCun et al.)* | 1998 | Computer Vision | [Guide Part 1](2%20-%20Gradient-Based%20Learning%20Applied%20to%20Document%20Recognition%20(LeNet-5)/lenet5_paper_explained_part1.md) • [Part 2](2%20-%20Gradient-Based%20Learning%20Applied%20to%20Document%20Recognition%20(LeNet-5)/lenet5_paper_explained_part2.md) | [lenet5-from-scratch/](2%20-%20Gradient-Based%20Learning%20Applied%20to%20Document%20Recognition%20(LeNet-5)/lenet5-from-scratch) | ✅ Completed |
 | **03** | **A Neural Probabilistic Language Model (NPLM)**<br>*(Bengio et al.)* | 2003 | Language Models | [شرح بالعربي](3%20-%20A%20Neural%20Probabilistic%20Language%20Model/neural_language_model_explained.md) • [English Guide](3%20-%20A%20Neural%20Probabilistic%20Language%20Model/neural_language_model_explained_en.md) | [nplm_native.py](3%20-%20A%20Neural%20Probabilistic%20Language%20Model/nplm_native.py) • [demo.py](3%20-%20A%20Neural%20Probabilistic%20Language%20Model/demo.py) | ✅ Completed |
@@ -43,6 +43,8 @@ This repository is designed as a deep-dive, practical companion for anyone looki
 | **12** | **Faster R-CNN: Towards Real-Time Object Detection with RPN**<br>*(Ren, He, Girshick, Sun)* | 2015 | Object Detection | [Faster R-CNN Explained](12%20-%20Faster%20R-CNN/Faster_RCNN_Explained.md) • [PDF](12%20-%20Faster%20R-CNN/1506.01497v3.pdf) | RPN, Anchors & 4-Step Alternating Training | ✅ Completed |
 | **13** | **You Only Look Once: Unified, Real-Time Object Detection (YOLO)**<br>*(Redmon, Divvala, Girshick, Farhadi)* | 2016 | Object Detection | [YOLO Explained](13%20-%20You%20Only%20Look%20Once%20(YOLO)/YOLO_Explained.md) • [PDF](13%20-%20You%20Only%20Look%20Once%20(YOLO)/1506.02640v5.pdf) | Unified Detection, Loss Formulation & NMS | ✅ Completed |
 | **14** | **YOLOv3: An Incremental Improvement**<br>*(Redmon & Farhadi)* | 2018 | Object Detection | [YOLOv3 Explained](14%20-%20YOLOv3/YOLOv3_Explained.md) • [PDF](14%20-%20YOLOv3/1804.02767v1.pdf) | Darknet-53, Multi-Scale FPN & Logistic Loss | ✅ Completed |
+| **15** | **Fully Convolutional Networks for Semantic Segmentation (FCN)**<br>*(Long, Shelhamer, Darrell)* | 2015 | Semantic Segmentation | [FCN Explained](15%20-%20Fully%20Convolutional%20Networks%20for%20Semantic%20Segmentation/FCN_Explained.md) • [PDF](15%20-%20Fully%20Convolutional%20Networks%20for%20Semantic%20Segmentation/1411.4038v2.pdf) | FCN-32s, 16s, 8s & Transposed Convs | ✅ Completed |
+| **16** | **U-Net: Convolutional Networks for Biomedical Image Segmentation**<br>*(Ronneberger, Fischer, Brox)* | 2015 | Biomedical Segmentation | [U-Net Explained](16%20-%20U-Net/UNet_Explained.md) • [PDF](16%20-%20U-Net/1505.04597v1.pdf) | Symmetric Encoder-Decoder, Skips & Weight Map | ✅ Completed |
 
 ---
 
@@ -71,8 +73,8 @@ The roadmap is categorized by research domain and based on [`DeepMind_AI_Paper_R
 - [x] **2015** — *Faster R-CNN: Towards Real-Time Object Detection with RPN* (Ren et al.)
 - [x] **2016** — *You Only Look Once: Unified, Real-Time Object Detection (YOLO)* (Redmon et al.)
 - [x] **2018** — *YOLOv3: An Incremental Improvement* (Redmon & Farhadi)
-- [ ] **2015** — *Fully Convolutional Networks for Semantic Segmentation (FCN)* (Long et al.)
-- [ ] **2015** — *U-Net: Convolutional Networks for Biomedical Image Segmentation* (Ronneberger et al.)
+- [x] **2015** — *Fully Convolutional Networks for Semantic Segmentation (FCN)* (Long et al.)
+- [x] **2015** — *U-Net: Convolutional Networks for Biomedical Image Segmentation* (Ronneberger et al.)
 - [ ] **2017** — *Mask R-CNN* (He et al.)
 
 ### 4. Transformers & Foundation LLMs
