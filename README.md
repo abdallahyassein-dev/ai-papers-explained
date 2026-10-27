@@ -1,6 +1,6 @@
 # 🧠 AI & Deep Learning Papers Explained (From Scratch)
 
-[![Papers Covered](https://img.shields.io/badge/Roadmap%20Progress-16%2F49%20Completed-brightgreen.svg?style=flat-square)](#-milestone-papers-completed)
+[![Papers Covered](https://img.shields.io/badge/Roadmap%20Progress-17%2F49%20Completed-brightgreen.svg?style=flat-square)](#-milestone-papers-completed)
 [![Language](https://img.shields.io/badge/Language-English%20%7C%20العربية-blue.svg?style=flat-square)](#-overview--نظرة-عامة)
 [![Code](https://img.shields.io/badge/Implementations-From%20Scratch%20(Python%20%26%20PyTorch)-orange.svg?style=flat-square)](#-from-scratch-implementations)
 [![License](https://img.shields.io/badge/License-MIT-lightgrey.svg?style=flat-square)](LICENSE)
@@ -25,7 +25,7 @@ This repository is designed as a deep-dive, practical companion for anyone looki
 
 ---
 
-## 🏆 Milestone Papers Completed (16 / 49)
+## 🏆 Milestone Papers Completed (17 / 49)
 
 | # | Paper Title | Year | Category | In-Depth Guide / Summary | Code Implementation | Status |
 | :-: | :--- | :-: | :--- | :-: | :--- | :-: |
@@ -45,6 +45,8 @@ This repository is designed as a deep-dive, practical companion for anyone looki
 | **14** | **YOLOv3: An Incremental Improvement**<br>*(Redmon & Farhadi)* | 2018 | Object Detection | [YOLOv3 Explained](14%20-%20YOLOv3/YOLOv3_Explained.md) • [PDF](14%20-%20YOLOv3/1804.02767v1.pdf) | Darknet-53, Multi-Scale FPN & Logistic Loss | ✅ Completed |
 | **15** | **Fully Convolutional Networks for Semantic Segmentation (FCN)**<br>*(Long, Shelhamer, Darrell)* | 2015 | Semantic Segmentation | [FCN Explained](15%20-%20Fully%20Convolutional%20Networks%20for%20Semantic%20Segmentation/FCN_Explained.md) • [PDF](15%20-%20Fully%20Convolutional%20Networks%20for%20Semantic%20Segmentation/1411.4038v2.pdf) | FCN-32s, 16s, 8s & Transposed Convs | ✅ Completed |
 | **16** | **U-Net: Convolutional Networks for Biomedical Image Segmentation**<br>*(Ronneberger, Fischer, Brox)* | 2015 | Biomedical Segmentation | [U-Net Explained](16%20-%20U-Net/UNet_Explained.md) • [PDF](16%20-%20U-Net/1505.04597v1.pdf) | Symmetric Encoder-Decoder, Skips & Weight Map | ✅ Completed |
+| **17** | **Mask R-CNN**<br>*(He, Gkioxari, Dollár, Girshick)* | 2017 | Instance Segmentation | [Mask R-CNN Explained](17%20-%20Mask%20R-CNN/Mask_RCNN_Explained.md) • [PDF](17%20-%20Mask%20R-CNN/1703.06870v3.pdf) | RoIAlign, FPN Backbone & Multi-Task Loss | ✅ Completed |
+| **18** | **Attention Is All You Need (Transformer)**<br>*(Vaswani, Shazeer, Parmar, Uszkoreit, Jones, Gomez, Kaiser, Polosukhin)* | 2017 | NLP / Transformers | [Transformer Explained](18%20-%20Attention%20Is%20All%20You%20Need/Attention_Is_All_You_Need_Explained.md) • [PDF](18%20-%20Attention%20Is%20All%20You%20Need/1706.03762v7.pdf) | Scaled Dot-Product & Multi-Head Attention, Positional Encoding | ✅ Completed |
 
 ---
 
@@ -75,10 +77,10 @@ The roadmap is categorized by research domain and based on [`DeepMind_AI_Paper_R
 - [x] **2018** — *YOLOv3: An Incremental Improvement* (Redmon & Farhadi)
 - [x] **2015** — *Fully Convolutional Networks for Semantic Segmentation (FCN)* (Long et al.)
 - [x] **2015** — *U-Net: Convolutional Networks for Biomedical Image Segmentation* (Ronneberger et al.)
-- [ ] **2017** — *Mask R-CNN* (He et al.)
+- [x] **2017** — *Mask R-CNN* (He et al.)
 
 ### 4. Transformers & Foundation LLMs
-- [ ] **2017** — *Attention Is All You Need* (Vaswani et al.)
+- [x] **2017** — *Attention Is All You Need* (Vaswani et al.)
 - [ ] **2018** — *BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding* (Devlin et al.)
 - [ ] **2020** — *Language Models are Few-Shot Learners (GPT-3)* (Brown et al.)
 - [ ] **2020** — *Scaling Laws for Neural Language Models* (Kaplan et al.)
